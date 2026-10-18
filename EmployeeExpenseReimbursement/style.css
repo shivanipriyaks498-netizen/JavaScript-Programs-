@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f7;
+    margin: 0;
+    padding: 30px 15px;
+    color: #263238;
+}
+
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+    background: white;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #174a7e;
+    font-size: 26px;
+}
+
+p {
+    text-align: center;
+    color: #667085;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button {
+    width: 100%;
+    margin-top: 24px;
+    padding: 13px;
+    background: #1769aa;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #104c80;
+}
+
+#result {
+    margin-top: 24px;
+    overflow-wrap: anywhere;
+}
+
+.summary {
+    padding: 18px;
+    border-radius: 8px;
+    background: #f3f6fa;
+    line-height: 1.8;
+}
+
+.summary h2 {
+    color: #174a7e;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.error {
+    color: #b42318;
+    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
